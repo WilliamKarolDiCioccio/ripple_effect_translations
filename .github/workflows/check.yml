@@ -20,8 +20,10 @@ jobs:
       - run: dart run tool/check.dart
 
   # Every commit certifies the Developer Certificate of Origin (DCO) with a
-  # Signed-off-by trailer. Checked here rather than by a third-party app so
-  # the rule is one readable script in this repository.
+  # Signed-off-by trailer carrying its author's email: a sign-off is the
+  # author's own certification, so one in somebody else's name does not count.
+  # Checked here rather than by a third-party app so the rule is one readable
+  # script in this repository.
   sign-off:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
@@ -29,19 +31,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Every commit is signed off
+      - name: Every commit is signed off by its author
         env:
           BASE: ${{ github.event.pull_request.base.sha }}
           HEAD: ${{ github.event.pull_request.head.sha }}
-        run: |
-          missing=0
-          for commit in $(git rev-list --no-merges "$BASE..$HEAD"); do
-            if ! git log -1 --format='%(trailers:key=Signed-off-by,valueonly)' "$commit" | grep -q .; then
-              echo "::error::$(git log -1 --format='%h %s' "$commit") has no Signed-off-by line."
-              missing=1
-            fi
-          done
-          if [ "$missing" = 1 ]; then
-            echo "Sign off with 'git commit -s' (or 'git rebase --signoff $BASE' for commits already made); CONTRIBUTING.md says why."
-            exit 1
-          fi
+        run: bash .github/sign-off.sh "$BASE" "$HEAD"

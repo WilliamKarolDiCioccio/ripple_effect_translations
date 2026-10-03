@@ -1,0 +1,342 @@
+{
+  "@@locale": "en",
+  "languageName": "English",
+  "@languageName": {
+    "description": "Not a translation of the word \"English\". Write the name of the language this file is in, in that language: Italiano in the Italian file, Deutsch in the German one, 日本語 in the Japanese one. The language picker lists every language under its own name, so a reader can find theirs whatever the app is currently showing."
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Title of the app's own settings dialog, opened from the gear in the app bar."
+  },
+  "settingsClose": "Close",
+  "@settingsClose": {
+    "description": "The button that closes the settings dialog. Every choice in it has already taken effect, so this is not 'Save' or 'Apply'."
+  },
+  "settingsLanguageLabel": "Language",
+  "@settingsLanguageLabel": {
+    "description": "Section heading over the language picker in the settings dialog. Write it in normal case: the dialog shows every section heading in capitals by itself."
+  },
+  "settingsLanguageSystem": "System ({language})",
+  "@settingsLanguageSystem": {
+    "description": "The first entry in the language picker: follow the operating system's language. {language} is the name of the language that currently resolves to, in that language (for example 'English').",
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "English"
+      }
+    }
+  },
+  "settingsLanguageExplanation": "The language of the app itself. A project's own languages are set in its settings.",
+  "@settingsLanguageExplanation": {
+    "description": "The line under the language picker. Makes clear this does not change the language a story is written in."
+  },
+  "settingsPlayingLabel": "Playing",
+  "@settingsPlayingLabel": {
+    "description": "Section heading over the loop-ceiling control in the settings dialog. Write it in normal case: the dialog shows every section heading in capitals by itself."
+  },
+  "settingsLoopLimitNone": "None",
+  "@settingsLoopLimitNone": {
+    "description": "The last segment of the loop-ceiling control: no limit on how many times a loop node may repeat. The other segments are plain numbers (128, 512 …). Very little room: five segments share one row."
+  },
+  "settingsLoopLimitExplanation": "How many times one loop node may go round before a campaign stops with an error, and offers you the node. Counted per loop and per board: jumping away and coming back starts again. Far more than a story needs — the ceiling is there to catch a loop with no way out.",
+  "@settingsLoopLimitExplanation": {
+    "description": "The line under the loop-ceiling control when a number is chosen. A 'loop node' is a node on the story canvas that repeats, such as While; a 'campaign' is a story being played."
+  },
+  "settingsLoopLimitNoneExplanation": "A loop node may go round for ever. A While with nothing breaking out of it will not stop the campaign — it will simply never end.",
+  "@settingsLoopLimitNoneExplanation": {
+    "description": "The line under the loop-ceiling control when None is chosen. 'While' is the name of a node and stays as it is in the app."
+  },
+  "panelCloseTab": "Close",
+  "@panelCloseTab": {
+    "description": "In the menu shown on right-clicking a tab in the workspace (the panels a project is laid out in). Closes that tab."
+  },
+  "panelCloseOtherTabs": "Close others",
+  "@panelCloseOtherTabs": {
+    "description": "In the menu shown on right-clicking a tab in the workspace (the panels a project is laid out in). Closes every other tab in the same group."
+  },
+  "panelCloseTabsAfter": "Close to the right",
+  "@panelCloseTabsAfter": {
+    "description": "In the menu shown on right-clicking a tab in the workspace (the panels a project is laid out in). Closes the tabs after this one in reading order. In a right-to-left language write the direction that comes after, which is to the left."
+  },
+  "panelCloseAllTabs": "Close all",
+  "@panelCloseAllTabs": {
+    "description": "In the menu of a tab or of a tab strip's empty background. Closes every tab in the group."
+  },
+  "panelClosePanel": "Close",
+  "@panelClosePanel": {
+    "description": "In the menu shown on right-clicking a single panel's header. Closes the panel."
+  },
+  "panelSplit": "Split",
+  "@panelSplit": {
+    "description": "In the menu shown on right-clicking a tab in the workspace (the panels a project is laid out in). A submenu: places the tab beside its group, on the side chosen below it."
+  },
+  "panelMoveToEdge": "Move to edge",
+  "@panelMoveToEdge": {
+    "description": "In the menu of a tab strip or a panel header. A submenu: docks the whole group against one edge of the window."
+  },
+  "panelEqualise": "Equalise",
+  "@panelEqualise": {
+    "description": "In the menu shown on right-clicking the divider between two panels. Gives every panel in the row the same size."
+  },
+  "panelSwapLeftRight": "Swap left and right",
+  "@panelSwapLeftRight": {
+    "description": "In a divider's menu, for panels side by side: swaps the two either side of it."
+  },
+  "panelSwapTopBottom": "Swap top and bottom",
+  "@panelSwapTopBottom": {
+    "description": "In a divider's menu, for panels stacked: swaps the two either side of it."
+  },
+  "panelSideLeft": "Left",
+  "@panelSideLeft": {
+    "description": "A side of a panel or of the window, in the Split and Move to edge submenus."
+  },
+  "panelSideTop": "Top",
+  "@panelSideTop": {
+    "description": "A side of a panel or of the window, in the Split and Move to edge submenus."
+  },
+  "panelSideRight": "Right",
+  "@panelSideRight": {
+    "description": "A side of a panel or of the window, in the Split and Move to edge submenus."
+  },
+  "panelSideBottom": "Bottom",
+  "@panelSideBottom": {
+    "description": "A side of a panel or of the window, in the Split and Move to edge submenus."
+  },
+  "nodeEditorCut": "Cut",
+  "@nodeEditorCut": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Cuts the selected cards. A verb."
+  },
+  "nodeEditorCopy": "Copy",
+  "@nodeEditorCopy": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Copies the selected cards. A verb."
+  },
+  "nodeEditorPaste": "Paste",
+  "@nodeEditorPaste": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Pastes copied cards where the menu was opened. A verb."
+  },
+  "nodeEditorDelete": "Delete",
+  "@nodeEditorDelete": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Deletes the selected cards, or a connection. A verb."
+  },
+  "nodeEditorDeleteWithContents": "Delete with contents",
+  "@nodeEditorDeleteWithContents": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a group of cards: deletes the frame and every card in it."
+  },
+  "nodeEditorDescription": "Description",
+  "@nodeEditorDescription": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a card: opens the description of that kind of card."
+  },
+  "nodeEditorGroup": "Group",
+  "@nodeEditorGroup": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a card: draws a frame (a group) around the selected cards. A verb."
+  },
+  "nodeEditorAddToGroup": "Add to group",
+  "@nodeEditorAddToGroup": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a card, when the selection already contains a group: adds the other selected cards to it."
+  },
+  "nodeEditorDisband": "Disband",
+  "@nodeEditorDisband": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a group: removes the frame and keeps the cards."
+  },
+  "nodeEditorRename": "Rename",
+  "@nodeEditorRename": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a group: asks for a new name. A verb."
+  },
+  "nodeEditorColour": "Colour",
+  "@nodeEditorColour": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a group: the submenu of colours for its frame."
+  },
+  "nodeEditorNeutralColour": "Neutral",
+  "@nodeEditorNeutralColour": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. The first choice of a group's colour submenu: no colour."
+  },
+  "nodeEditorGoToSource": "Go to source",
+  "@nodeEditorGoToSource": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a connection: moves the view to the card it comes from."
+  },
+  "nodeEditorGoToDestination": "Go to destination",
+  "@nodeEditorGoToDestination": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a connection: moves the view to the card it leads to."
+  },
+  "nodeEditorRemoveWaypoint": "Remove waypoint",
+  "@nodeEditorRemoveWaypoint": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a bend point placed on a connection: removes it."
+  },
+  "nodeEditorAddWaypointHere": "Add waypoint here",
+  "@nodeEditorAddWaypointHere": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a connection: adds a bend point where the menu was opened, to route the line."
+  },
+  "nodeEditorClearWaypoints": "Clear waypoints",
+  "@nodeEditorClearWaypoints": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a connection: removes every bend point, so the line takes its natural shape again."
+  },
+  "nodeEditorCenterView": "Center view",
+  "@nodeEditorCenterView": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On empty canvas: fits every card into view."
+  },
+  "nodeEditorResetZoom": "Reset zoom",
+  "@nodeEditorResetZoom": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On empty canvas: returns the zoom to 100%."
+  },
+  "nodeEditorCreate": "Create",
+  "@nodeEditorCreate": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On empty canvas: the submenu listing every kind of card that can be added."
+  },
+  "nodeEditorAddComment": "Add comment",
+  "@nodeEditorAddComment": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On empty canvas: adds a free-text note where the menu was opened."
+  },
+  "nodeEditorProject": "Project",
+  "@nodeEditorProject": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On empty canvas: a submenu with undo, redo and file actions."
+  },
+  "nodeEditorUndo": "Undo",
+  "@nodeEditorUndo": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Undoes the last change. A verb."
+  },
+  "nodeEditorRedo": "Redo",
+  "@nodeEditorRedo": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Redoes the last undone change. A verb."
+  },
+  "nodeEditorOpen": "Open",
+  "@nodeEditorOpen": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Opens a file. A verb."
+  },
+  "nodeEditorSave": "Save",
+  "@nodeEditorSave": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Saves the file. A verb."
+  },
+  "nodeEditorNewProject": "New project",
+  "@nodeEditorNewProject": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. Starts an empty canvas."
+  },
+  "nodeEditorCutLinks": "{count, plural, =1{Cut link} other{Cut links}}",
+  "@nodeEditorCutLinks": {
+    "description": "In the menu shown on right-clicking a board, the canvas a story's cards are drawn on. On a card's connection point: removes the connections attached to it. {count} is how many; zero is shown greyed out.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nodeEditorAboutThisNode": "About this node",
+  "@nodeEditorAboutThisNode": {
+    "description": "A small dialog over a board. The title of the description dialog when the card type has no name."
+  },
+  "nodeEditorClose": "Close",
+  "@nodeEditorClose": {
+    "description": "A small dialog over a board. The button that closes a dialog that asks nothing."
+  },
+  "nodeEditorCancel": "Cancel",
+  "@nodeEditorCancel": {
+    "description": "A small dialog over a board. Dismisses the dialog without applying it."
+  },
+  "nodeEditorGroupNameTitle": "Group name",
+  "@nodeEditorGroupNameTitle": {
+    "description": "A small dialog over a board. The title of the dialog that renames a group of cards."
+  },
+  "nodeEditorGroupNameHint": "Leave empty for \"{defaultName}\"",
+  "@nodeEditorGroupNameHint": {
+    "description": "A small dialog over a board. The hint inside the group-name field. {defaultName} is the name an unnamed group is stored with, \"Untitled\"; it is saved in the file in English and is not translated.",
+    "placeholders": {
+      "defaultName": {
+        "type": "String",
+        "example": "Untitled"
+      }
+    }
+  },
+  "nodeEditorRenameConfirm": "Rename",
+  "@nodeEditorRenameConfirm": {
+    "description": "A small dialog over a board. The button that applies a new group name. A verb."
+  },
+  "nodeEditorLinkLabelTitle": "Link label",
+  "@nodeEditorLinkLabelTitle": {
+    "description": "A small dialog over a board. The title of the dialog that edits the caption drawn on a connection."
+  },
+  "nodeEditorLinkLabelHint": "Leave empty to remove the caption",
+  "@nodeEditorLinkLabelHint": {
+    "description": "A small dialog over a board. The hint inside the connection-caption field."
+  },
+  "nodeEditorSaveConfirm": "Save",
+  "@nodeEditorSaveConfirm": {
+    "description": "A small dialog over a board. The button that applies a connection caption. A verb."
+  },
+  "nodeEditorDiscardChangesTitle": "Discard unsaved changes?",
+  "@nodeEditorDiscardChangesTitle": {
+    "description": "A small dialog over a board. Asked before starting an empty canvas over unsaved work."
+  },
+  "nodeEditorDiscardChangesMessage": "This document has changes that have not been saved.",
+  "@nodeEditorDiscardChangesMessage": {
+    "description": "A small dialog over a board. The body of the discard confirmation."
+  },
+  "nodeEditorDiscardConfirm": "Discard",
+  "@nodeEditorDiscardConfirm": {
+    "description": "A small dialog over a board. The button that confirms dropping unsaved work. A verb."
+  },
+  "nodeEditorMinimapMinimise": "Minimise",
+  "@nodeEditorMinimapMinimise": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. Tooltip of the button that folds it to its title bar."
+  },
+  "nodeEditorMinimapRestore": "Restore",
+  "@nodeEditorMinimapRestore": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. Tooltip of the same button when folded: unfolds it."
+  },
+  "nodeEditorMinimapZoomCap": "Zoom cap",
+  "@nodeEditorMinimapZoomCap": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A submenu of its settings: how far the map may zoom in at most."
+  },
+  "nodeEditorMinimapSize": "Size",
+  "@nodeEditorMinimapSize": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A submenu of its settings: how big the panel is."
+  },
+  "nodeEditorMinimapShow": "Show",
+  "@nodeEditorMinimapShow": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A submenu of its settings: which layers it draws."
+  },
+  "nodeEditorMinimapWhenIdle": "When idle",
+  "@nodeEditorMinimapWhenIdle": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A submenu of its settings: how transparent it is while the pointer is elsewhere."
+  },
+  "nodeEditorMinimapConnections": "Connections",
+  "@nodeEditorMinimapConnections": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A layer it can draw: the lines between cards."
+  },
+  "nodeEditorMinimapGroupFrames": "Group frames",
+  "@nodeEditorMinimapGroupFrames": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A layer it can draw: the frames of groups of cards."
+  },
+  "nodeEditorMinimapComments": "Comments",
+  "@nodeEditorMinimapComments": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A layer it can draw: the free-text notes."
+  },
+  "nodeEditorMinimapZoomCapLabel": "{scale}",
+  "@nodeEditorMinimapZoomCapLabel": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. One choice of the zoom cap, a percentage. Formatted by the app; nothing to translate unless the language writes percentages differently.",
+    "placeholders": {
+      "scale": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  },
+  "nodeEditorMinimapSolid": "Solid",
+  "@nodeEditorMinimapSolid": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A choice of When idle: fully opaque."
+  },
+  "nodeEditorMinimapDim": "Dim",
+  "@nodeEditorMinimapDim": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A choice of When idle: partly transparent."
+  },
+  "nodeEditorMinimapFaint": "Faint",
+  "@nodeEditorMinimapFaint": {
+    "description": "On the minimap, the small overview of the whole board drawn in a corner of it. A choice of When idle: mostly transparent."
+  },
+  "nodeEditorCommentHint": "Comment",
+  "@nodeEditorCommentHint": {
+    "description": "The hint inside an empty free-text note on a board."
+  },
+  "overviewFitToContent": "Fit to content",
+  "@overviewFitToContent": {
+    "description": "In the menu shown on right-clicking the read-only overview of how boards lead into each other: fits every board into view."
+  }
+}

@@ -1,0 +1,24 @@
+name: New language
+description: Ask for ripple_effect in a language it does not have yet, and offer to maintain it.
+title: "New language: "
+labels: [new language]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Its name, and its tag if you know it (it, de, pt-BR).
+    validations:
+      required: true
+  - type: checkboxes
+    id: maintainer
+    attributes:
+      label: Maintaining it
+      description: A language opens when somebody will review every change to it.
+      options:
+        - label: I read and write this language well, and I would like to maintain it.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Others who would help, regional variants, terms you already know are tricky.

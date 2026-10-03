@@ -1,0 +1,12 @@
+name: ripple_effect_translations
+description: The checks every translation of ripple_effect passes.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  # Exactly the version the application pins: this is the validator its
+  # import runs, and a check that disagreed with it would pass a language the
+  # app then refuses.
+  smart_arb_translator: 1.11.1

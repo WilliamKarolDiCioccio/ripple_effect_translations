@@ -1,0 +1,6 @@
+# Who reviews what. The project owns everything mirrored from the application
+# and the rules; each language's maintainer owns its folder, added below when
+# the language is opened:
+#
+#   /languages/it/  @maintainer
+*  @WilliamKarolDiCioccio

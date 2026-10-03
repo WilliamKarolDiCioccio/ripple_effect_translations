@@ -7,7 +7,8 @@ lower.
 ## Before you start
 
 - **Sign off every commit**: `git commit -s` adds a `Signed-off-by:` line
-  with your name and email. By adding it you certify the
+  with your name and email — the same email the commit is authored with. By
+  adding it you certify the
   [Developer Certificate of Origin](DCO): that you wrote the contribution, or
   otherwise have the right to submit it under this repository's
   [MIT licence](LICENSE). A check refuses a pull request with an unsigned

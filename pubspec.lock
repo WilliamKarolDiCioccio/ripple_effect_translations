@@ -244,10 +244,11 @@ packages:
   smart_arb_translator:
     dependency: "direct main"
     description:
-      name: smart_arb_translator
-      sha256: b6e1030c6acb6e5c6147c0f26d8d09e27ac80a4d468bc105c54bcd4dc2397666
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: "37afef2246636997b155ec66346486da64d010bd"
+      resolved-ref: "37afef2246636997b155ec66346486da64d010bd"
+      url: "https://github.com/WilliamKarolDiCioccio/smart_arb_translator.git"
+    source: git
     version: "1.11.1"
   source_span:
     dependency: transitive

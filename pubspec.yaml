@@ -8,5 +8,10 @@ environment:
 dependencies:
   # Exactly the version the application pins: this is the validator its
   # import runs, and a check that disagreed with it would pass a language the
-  # app then refuses.
-  smart_arb_translator: 1.11.1
+  # app then refuses. A fork's commit until upstream releases the fixes the
+  # application's harness needs (FredrikBorgstrom/smart_arb_translator#12);
+  # among them the brace_parity check, which this repository's CI now runs.
+  smart_arb_translator:
+    git:
+      url: https://github.com/WilliamKarolDiCioccio/smart_arb_translator.git
+      ref: 37afef2246636997b155ec66346486da64d010bd
